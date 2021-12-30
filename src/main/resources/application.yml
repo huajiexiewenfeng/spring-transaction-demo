@@ -1,0 +1,10 @@
+server:
+  port: 8185
+spring:
+  application:
+    name: spring-transcation-demo
+  datasource:
+    name: spring-demo
+    url: jdbc:mysql://127.0.0.1:3306/spring-transcation?serverTimezone=UTC
+    username: spring-demo
+    password: spring-demo
